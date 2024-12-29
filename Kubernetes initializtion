@@ -1,4 +1,4 @@
-kubeadm init --apiserver-advertise-address=188.245.96.237 --pod-network-cidr=10.244.0.0/16
+kubeadm init --apiserver-advertise-address=10.0.0.2 --pod-network-cidr=10.244.0.0/16
 
 
 Enter the commands shown as output as a regular user(ubuntu). Copy and keep your join command for slave node
